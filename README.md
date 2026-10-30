@@ -65,9 +65,9 @@ To update a manually installed build, extract the new ZIP to your extension fold
 ## Access and Requirements
 
 - A signed-in Salesforce browser session in the same browser profile.
-- Salesforce permissions for the objects, fields, APIs, metadata, Apex operations, and records used by each tool.
+- The data you can see and actions you can take depend on the permissions of the Salesforce user signed in to the active browser profile.
 - An active trial or subscription may be required for specific tools. Home and Help remain available; Home shows access status.
-- Salesforce API limits apply. Broad queries, repeated metadata loads, exports, comparisons, and live log refreshes use org API capacity.
+- Salesforce enforces governor limits on Apex transactions. API request, SOQL/query, and other platform limits also apply where relevant and vary by operation and execution context. Broad queries, repeated metadata loads, exports, comparisons, and live log refreshes use org API capacity.
 
 The extension does not bypass Salesforce permissions or ask for your Salesforce username or password. It uses the authenticated browser session for Salesforce API access. Extension account sign-in and subscription approval are separate from Salesforce sign-in.
 
